@@ -7,7 +7,6 @@ body {
   color: rgb(226, 181, 216);
 }
 
-
 #wrap {
   width: 960px;
   margin: 0 auto;
@@ -15,12 +14,10 @@ body {
   background-color: rgb(176, 40, 194);
 }
 
-
 #header {
   height: 120px;
   background-color: rgb(253, 178, 237);
 }
-
 
 #header h1 {
   text-align: center;
@@ -33,35 +30,29 @@ body {
   font-size: 46px;
 }
 
-
 h2,
 h3,
 h4 {
   text-align: center;
 }
 
-
 h2 {
   color: rgb(253, 213, 238);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 p {
   text-align: justify;
 }
-
 
 a {
   color: rgb(253, 178, 237);
   text-decoration: none;
 }
 
-
 ul.menu {
   list-style-type: none;
 }
-
 
 ul.menu li a {
   background: rgb(165, 7, 157);
@@ -70,16 +61,13 @@ ul.menu li a {
   margin: 10px;
 }
 
-
 ul.menu li a:hover {
   background-color: rgb(206, 51, 172);
 }
 
-
 a:hover {
   color: rgb(253, 213, 238);
 }
-
 
 .main_img {
   width: 200px;
@@ -87,29 +75,24 @@ a:hover {
   padding: 0 20px 5px 0;
 }
 
-
 .clear {
   clear: both;
 }
-
 
 #nav {
   width: 250px;
   float: left;
 }
 
-
 #main {
   margin-left: 250px;
   padding: 30px;
 }
 
-
 #footer {
   height: 90px;
   background-color: rgb(253, 178, 237);
 }
-
 
 #footer h3 {
   text-align: center;
@@ -121,7 +104,41 @@ a:hover {
   text-transform: uppercase;
 }
 
-
 #menu_toggle {
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  #wrap {
+    width: 100%;
+  }
+
+  #nav {
+    width: 100%;
+    float: none;
+    background: rgb(165, 7, 157);
+    height: 60px;
+    margin-top: -20px;
+  }
+
+  ul.menu li {
+    margin-top: 0;
+  }
+
+  ul.menu li a {
+    float: left;
+    font-size: 22px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  h2 {
+    clear: both;
+  }
+
+  p {
+    font-size: 22px;
+  }
 }
